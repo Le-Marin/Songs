@@ -1,0 +1,49 @@
+body {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 1.5em;
+  color: transparent;
+  background: white;
+}
+#title {
+  font-size: 1.5em;
+  margin: 0 0 0.5em;
+  color: #692626;
+  text-transform: uppercase;
+}
+#author {
+  font-style: italic;
+  color: #2f5576;
+}
+#text {
+  max-width: 40em;
+  margin-top: 1.5em;
+  color: #111;
+  white-space: pre-wrap;
+}
+.o {
+  font-weight: bold;
+}
+.t {
+  font-style: normal;
+  color: #666;
+}
+.i {
+  font-size: 0.85em;
+  margin-left: 1.8em;
+}
+#player {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  margin-bottom: 0.5em;
+  border: none;
+  user-select: none;
+}
+
+@media screen and (max-width: 980px) {
+  #player {
+    position: static;
+  }
+}
